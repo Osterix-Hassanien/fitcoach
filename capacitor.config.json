@@ -1,0 +1,17 @@
+{
+  "appId": "com.fitcoach.app",
+  "appName": "FitCoach",
+  "webDir": "www",
+  "backgroundColor": "#0C3B4E",
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  },
+  "server": {
+    "cleartext": true
+  }
+}

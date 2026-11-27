@@ -1,0 +1,19 @@
+{
+  "name": "fitcoach",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FitCoach: adaptive exercise planner",
+  "scripts": {
+    "sync": "cap sync android",
+    "build:debug": "cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@fontsource/big-shoulders-display": "^5.0.0",
+    "@fontsource/figtree": "^5.0.0"
+  }
+}
